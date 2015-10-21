@@ -1,0 +1,2 @@
+#Pangisha is an on-line application that help house owners lease or sell their house on-line without having to hassle with the middle man 
+#The application also gives an opportunity to people who a looking for an apartment, house or room or business premises for rent. To connect direct with owners and negotiate price based on what the owner has put on the advet  

@@ -1,0 +1,81 @@
+@import 'foundation/settings';
+@import 'foundation';  
+body{
+    background-color: #E1E1E1;
+}
+.top-bar-section{
+    ul li{
+        @media #{$large-only} {
+            border-right: 1px solid #666666;
+            
+        }
+        @media #{$small-only} {
+            border-bottom: 1px solid #222222;
+        }
+    }
+    .left{
+        background-color:#222222;
+        @media #{$small-only} {
+            li{ background-color:#222222;
+                border-bottom: 1px solid #666666;
+            }
+        }
+    }
+    .right>.has-form{
+        background-color: transparent;
+    }
+}
+
+
+#content-area{
+   .row
+    {
+        max-width: 95%
+    } 
+    .pricing-table
+    {
+        
+        li
+        {
+            font-family: 'Work Sans', sans-serif;
+            padding-top:0.9rem;
+            padding-bottom:0.9rem;
+        }
+        .cta-button{
+            padding-bottom:0;
+        }
+    }
+}
+#main-content{
+    background-color: #FFF; margin-top: 10px; margin-bottom: 30px; border-radius: 5px;
+    ul li{
+        padding-top: 30px;
+    }
+}
+#sidebar{
+    margin-top: 10px;
+   @media #{$small-only} { padding:0px; }
+   @media #{$large-only} { padding-right:0px; }
+}
+
+
+form{
+    margin-top: 5px;
+    background-color:#FFFFFF;
+    padding: 1rem;border-radius:5px;
+    padding-top:0.5rem;
+    fieldset
+        {
+            background-color: #E6E6E6; border-radius:5px;
+            legend
+            {
+                border:2px solid #E6E6E6;
+                background-color:#E6E6E6;
+                padding:0.4rem 1rem 0.4rem 1rem; 
+                margin-top: -5px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px; 
+            }
+    }
+}
+.footer{min-height:400px; background-color:#4A5158;}

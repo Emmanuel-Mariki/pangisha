@@ -1,0 +1,22 @@
+{
+  "name": "pangisha",
+  "version": "0.0.1",
+  "authors": [
+    "Emmanuel-FeminaHip <emmanuel@feminahip.or.tz>"
+  ],
+  "description": "pangisha",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation": "~5.5.3"
+  }
+}
